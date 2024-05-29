@@ -52,8 +52,24 @@ const capitalizedString = capitalizeString('javascript'); // Javascript
 **Note:** When importing specific functions, you'll need to import each function you want to use from the `efun` package.
 
 ## Contributing
+We welcome contributions from the community! To contribute to efun view [CONTRIBUTING](CONTRIBUTING.md) and , follow these steps:
 
-We welcome contributions to the `efun` package! If you have any suggestions for new features or improvements, feel free to create a pull request on [git reposotry](https://github.com/pratyush0898/).
+1. Fork the repository.
+2. Create a new branch:
+    ```sh
+    git checkout -b feature/your-feature-name
+    ```
+3. Make your changes and commit them:
+    ```sh
+    git commit -m "Add your commit message"
+    ```
+4. Push to the branch:
+    ```sh
+    git push origin feature/your-feature-name
+    ```
+5. Open a pull request.
+
+Please make sure your contributions align with our [code of conduct](./CODE_OF_CONDUCT.md).
 
 ## License
 
