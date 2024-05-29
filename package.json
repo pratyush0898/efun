@@ -1,0 +1,20 @@
+{
+  "name": "efun",
+  "version": "1.0.0",
+  "description": "A collection of extra utility functions to enhance your JavaScript projects.",
+  "main": "index.ts",
+  "scripts": {
+    "build": "tsc",
+    "run": "ts-node index.ts",
+    "test": "mocha"
+  },
+  "keywords": [
+    "efun",
+    "utility",
+    "functions",
+    "extra",
+    "javascript"
+  ],
+  "author": "nvmPratyush",
+  "license": "Apache-2.0"
+}
