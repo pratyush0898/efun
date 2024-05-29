@@ -16,5 +16,13 @@
     "javascript"
   ],
   "author": "nvmPratyush",
-  "license": "Apache-2.0"
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pratyush0898/efun.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pratyush0898/efun/issues"
+  },
+  "homepage": "https://github.com/pratyush0898/efun#readme"
 }
