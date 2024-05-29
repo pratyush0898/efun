@@ -1,0 +1,21 @@
+name: Publish efun
+
+on:
+  push:
+      branches:
+          -main
+
+jobs:
+  publish-grp:
+      runs-on: ubuntu-latest
+      steps:
+        - uses: action/checkout@v2
+        - uses: action/setup-node@v1
+          with:
+            node-version: 12
+            registry-url: https://npm.pkg.github.com/
+            scope: '@nvmpratyush'
+        - run : npm install
+        - run: npm publish
+          env:
+            NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
